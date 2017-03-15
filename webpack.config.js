@@ -34,7 +34,7 @@ var config = {
 		]
 	},
 	devServer: {
-		coontentBase: './dist',
+		contentBase: './dist',
 		port: 7070
 	}
 };

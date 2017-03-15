@@ -4,7 +4,8 @@
   "description": "react js course work",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "react-dom": "^15.4.2",
     "redux": "^3.6.0",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.4.2"
+    "webpack-dev-server": "^2.4.2",
+    "youtube-api-search": "0.0.5"
   }
 }
