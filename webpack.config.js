@@ -21,7 +21,10 @@ var config = {
 		new webpack.optimize.OccurrenceOrderPlugin(),
 		new HtmlPlugin({
 			template:'./src/index.html'
-		})
+		}),
+		new CopyWebpackPlugin([
+			{from:'src/style', to:path.join(__dirname, 'dist')}
+		])
 	],
 	module:{
 		loaders:[
